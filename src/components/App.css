@@ -1,0 +1,57 @@
+.App {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: white;
+  border-top: 1px solid #e9e9eb;
+  width: 100%;
+}
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 80%;
+  margin: auto !important;
+}
+
+.app__input {
+  flex: 1;
+  background-color: #e9e9eb;
+  border: none !important;
+
+  padding-left: 30px;
+
+  border-radius: 25px;
+}
+.app__iconButton {
+  flex: 0;
+  position: absolute;
+  right: 50px;
+}
+.app__iconButton:hover {
+  color: #0bab64 !important;
+}
+.welcome {
+  background: -webkit-linear-gradient(#3bb78f, #0bab64);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.MuiButtonBase-root {
+  color: none !important;
+  cursor: pointer;
+}
+
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
